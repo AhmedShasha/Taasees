@@ -1,0 +1,547 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    font-family: "Cairo", sans-serif !important;
+}
+
+/* index.html START */
+/* Nav */
+.nav-header {
+    float: right;
+}
+
+.align-to-right {
+    float: left;
+}
+
+#navigation4 > div.nav-menus-wrapper > ul {
+    transform: rotate(180deg);
+}
+
+#navigation4 > div.nav-menus-wrapper > ul > li {
+    transform: rotate(-180deg);
+}
+
+.nav-toggle {
+    right: 0;
+    left: 15px;
+}
+
+/* Body */
+body
+    > div.section-block.grey-bg
+    > div.container
+    > div.row.mt-40
+    > div
+    > div
+    > div
+    > a
+    > i {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+body > div > div > div > div.col-md-4.col-sm-4.col-12 ul.grey-list li i {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.section-block {
+    direction: rtl;
+    text-align: right;
+}
+
+.section-block .section-heading h6 {
+    text-align: center;
+}
+
+div.container-fluid.pl-0.pr-0 {
+    direction: rtl;
+    text-align: right;
+}
+
+.countup-box-2 {
+    direction: ltr;
+}
+
+.countup-box-2 h3 {
+    font-size: 50px;
+}
+
+.countup-box-2 span {
+    font-size: 35px;
+}
+
+@media (max-width: 1040px) {
+    .countup-box-2 h3 {
+        font-size: 45px;
+    }
+    .countup-box-2 span {
+        font-size: 30px;
+    }
+}
+
+/* Footer */
+footer {
+    direction: rtl;
+    text-align: right;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+footer ul.footer-nav {
+    padding: 0;
+}
+
+.footer-subscribe-form input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.footer-subscribe-form button {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.fa-calendar {
+    margin-right: 0;
+    margin-left: 5px;
+}
+/* index.html END */
+
+/* blog-grid-2.html START */
+#top-bar .container .row {
+    flex-direction: row-reverse;
+}
+
+.top-bar-info li {
+    float: right;
+}
+
+.social-icons {
+    float: left;
+}
+
+body > div:nth-child(4) > div > div > div > div.pagination.mt-20,
+body > div:nth-child(4) > div > div.pagination.mt-20 {
+    direction: rtl;
+}
+
+body > div:nth-child(4) > div > div {
+    justify-content: center;
+}
+
+body > div:nth-child(4) > div > div > div {
+    margin-left: 0;
+}
+/* Note that the above also adjusts blog-grid-3.html and blog-grid-4.html */
+/* blog-grid-2.html END */
+
+/* blog-list-centered.html START */
+body > div.section-block > div > div > div > div > ul {
+    padding-inline-start: 0;
+}
+
+body > div.section-block > div > div > div > div > ul > li {
+    margin-right: 0;
+    margin-left: 20px;
+}
+/* blog-list-centered.html END */
+
+/* blog-list.html START */
+.blog-list-info {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.blog-post-categories ul li a,
+.archive-box ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+/* blog-list.html END */
+
+/* blog-post-centered.html START */
+body > div.action-box.action-box-md.grey-bg.center-holder-xs > div > div {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.comment-block {
+    display: grid;
+    grid-template-areas:
+        "name date"
+        "comment comment";
+}
+/* blog-post-centered.html END */
+
+/* Note: By this point, blog-post-video.html and blog-post.html do not need specific adjustments */
+
+/* case-grid-$.html and case-list.html START */
+.text-left {
+    text-align: right !important;
+}
+
+.owl-carousel {
+    direction: ltr;
+}
+
+body
+    > div.breadcrumb-section.jarallax.pixels-bg
+    > div.container.text-center
+    > ul {
+    transform: rotate(180deg);
+}
+
+body
+    > div.breadcrumb-section.jarallax.pixels-bg
+    > div.container.text-center
+    > ul
+    li {
+    transform: rotate(-180deg);
+}
+
+body
+    > div.breadcrumb-section.jarallax.pixels-bg
+    > div.container.text-center
+    > ul
+    li:first-child::after {
+    content: "";
+}
+
+body
+    > div.breadcrumb-section.jarallax.pixels-bg
+    > div.container.text-center
+    > ul
+    li:last-child::after {
+    content: "/";
+}
+/* case-grid-$.html and case-list.html END */
+
+/* elements-action-boxes.html START */
+.action-box .container .row {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+/* elements-action-boxes.html END */
+
+/* elements-forms.html START */
+body > div.section-block-parallax.jarallax {
+    direction: rtl;
+}
+/* elements-forms.html END */
+
+/* elements-pricing.html START */
+.pricing-box-3-sale {
+    right: initial;
+    left: 40px;
+}
+/* elements-pricing.html END */
+
+/* home-3.html START */
+.primary-list li i {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.testmonial-box-2 .testmonial-img {
+    margin-right: 0;
+    margin-left: 20px;
+}
+/* home-3.html END */
+
+/* home-6.html START */
+.pricing-box ul li i {
+    float: left;
+}
+/* home-6.html END */
+
+/* page-404-$.html START */
+#video-area > div.text-center > div > div,
+body > div.error-section-2.full-height.text-center > div,
+body > div.error-3 > div > div:nth-child(2) > div {
+    direction: rtl;
+}
+/* page-404-$.html END */
+
+/* page-contact-2.html START */
+body > div.section-block.grey-bg > div > form > div {
+    justify-content: center;
+}
+
+body > div.section-block.grey-bg > div > form > div > div {
+    margin-left: 0;
+}
+/* page-contact-2.html END */
+
+/* page-contact-3.html START */
+body
+    > div
+    > div.container
+    > div
+    > div.col-md-4.col-sm-4.col-12
+    > div
+    > ul
+    > li {
+    margin-left: 0;
+}
+/* page-contact-3.html END */
+
+/* page-faq.html START */
+#headingOne > h5 > a::after,
+#headingTwo > h5 > a::after,
+#headingThree > h5 > a::after,
+#headingFour > h5 > a::after,
+#headingFive > h5 > a::after {
+    content: "";
+}
+
+#headingOne > h5 > a::before,
+#headingTwo > h5 > a::before,
+#headingThree > h5 > a::before,
+#headingFour > h5 > a::before,
+#headingFive > h5 > a::before {
+    content: "+";
+}
+/* page-faq.html END */
+
+/* page-maintenance.html START */
+body > div.maintenance-section.black-overlay-70.pixels-bg > div > div,
+body
+    > div.maintenance-section.black-overlay-70.pixels-bg
+    > div
+    > div
+    > div
+    > div.row {
+    flex-direction: row-reverse;
+}
+/* page-maintenance.html END */
+
+/* page-services-1.html START */
+#video-area > div.video-content.primary-overlay-80 > div > div {
+    flex-direction: row-reverse;
+}
+/* page-services-1.html END */
+
+/* shop-cart.html START */
+.shop-cart-box-info {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.right-info-price li,
+.total-price p {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+/* shop-cart.html END */
+
+#fixedsocial {
+    top: 30%;
+    height: 200px;
+    width: 60px;
+    position: fixed;
+    right: 0;
+    z-index: 100;
+}
+
+.facebookflat {
+    height: 50px;
+    width: 50px;
+    transition: ease 500ms;
+    background-size: 50px;
+    opacity: 1;
+}
+
+/*.facebookflat:hover {
+        background: url("http://placehold.it/50x50");
+        height: 50px;
+        width: 50px;
+        background-size: 60px;
+        opacity: 0.5;
+        transition: ease 500ms;
+        margin-left: -20px;
+        width: 70px;
+    }*/
+
+.twitterflat {
+    height: 50px;
+    width: 50px;
+    transition: ease 500ms;
+    background-size: 50px;
+    opacity: 1;
+}
+
+/*.twitterflat:hover {
+        background: url("http://placehold.it/50x50");
+        height: 50px;
+        width: 50px;
+        background-size: 60px;
+        opacity: 0.5;
+        transition: ease 500ms;
+        margin-left: -20px;
+        width: 70px;
+    }*/
+
+@media (max-width: 500px) {
+    #rev_slider
+        > ul
+        > li.tp-revslider-slidesli.active-revslide
+        > div.slotholder
+        > div::before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.4);
+    }
+
+    #fixedsocial {
+        top: 20%;
+    }
+
+    #rev_slider
+        > ul
+        > li.tp-revslider-slidesli.active-revslide
+        > div:nth-child(2) {
+        top: 35% !important;
+    }
+
+    #rev_slider
+        > ul
+        > li.tp-revslider-slidesli.active-revslide
+        > div:nth-child(2)
+        > div
+        > div
+        > div {
+        line-height: 1.2 !important;
+        font-size: 28px !important;
+    }
+
+    #rev_slider
+        > ul
+        > li.tp-revslider-slidesli.active-revslide
+        > div:nth-child(3)
+        > div
+        > div
+        > div {
+        display: none !important;
+    }
+
+    #rev_slider
+        > ul
+        > li.tp-revslider-slidesli.active-revslide
+        > div:nth-child(4) {
+        top: initial !important;
+        bottom: 45%;
+        left: 25% !important;
+        align-self: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    #rev_slider
+        > ul
+        > li.tp-revslider-slidesli.active-revslide
+        > div:nth-child(4)
+        > div
+        > div
+        > div {
+        font-size: 22px !important;
+        padding: 1rem !important;
+        max-width: initial !important;
+    }
+
+    #rev_slider > div.tp-leftarrow.tparrows.hesperiden {
+        left: -05% !important;
+    }
+
+    #rev_slider > div.tp-rightarrow.tparrows.hesperiden {
+        left: 105% !important;
+    }
+
+    body > footer > div > div > div.row > div:nth-child(1) {
+        text-align: center;
+    }
+
+    body
+        > div.container
+        > main
+        > div.section-block.timeLine
+        > div
+        > div.text-center
+        > a,
+    body
+        > div.container
+        > main
+        > div.section-block.grey-bg.background-shape-3
+        > div
+        > div:nth-child(3)
+        > a,
+    body
+        > div.container
+        > main
+        > div:nth-child(4)
+        > div
+        > div:nth-child(3)
+        > a {
+        border: 1px solid #d21825;
+        color: #d21825;
+        padding: 0.4rem 0.8rem;
+        font-size: 20px;
+    }
+
+    body
+        > div.container
+        > main
+        > div.section-block.timeLine
+        > div
+        > div.text-center
+        > a
+        > i::before {
+        color: #d21825;
+    }
+
+    body > footer > div > div > div.row > div:nth-child(1) > ul {
+        text-align: center;
+    }
+
+    body > footer > div > div > div.row > div:nth-child(1) > ul > li > a {
+        font-size: 1.6rem;
+    }
+
+    body > footer > div > div > div.row > div:nth-child(2) > div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    body > footer > div > div > div.footer-1-bar {
+        text-align: center;
+    }
+
+    #account > div:nth-child(3) {
+        text-align: center !important;
+    }
+}
